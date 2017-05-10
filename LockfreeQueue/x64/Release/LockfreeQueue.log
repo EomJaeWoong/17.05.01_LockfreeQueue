@@ -1,0 +1,31 @@
+﻿빌드 시작: 2017-05-10 오전 11:16:01
+     1>2 노드의 "C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\LockfreeQueue\LockfreeQueue.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt LockfreeQueue_Test.cpp
+         LockfreeQueue_Test.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\lockfreequeue\lockfreequeue\LockfreeQueue.h(154): warning C4101: 'pNode' :참조되지 않은 지역 변수입니다.
+                 c:\users\user\documents\visual studio 2013\projects\lockfreequeue\lockfreequeue\LockfreeQueue.h(152) : 클래스 템플릿 멤버 함수 'bool CLockfreeQueue<st_TEST_DATA *>::Get(DATA *)'을(를) 컴파일하고 있습니다.
+                 with
+                 [
+                     DATA=st_TEST_DATA *
+                 ]
+                 LockfreeQueue_Test.cpp(110) : 컴파일 중인 함수 템플릿 인스턴스화 'bool CLockfreeQueue<st_TEST_DATA *>::Get(DATA *)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     DATA=st_TEST_DATA *
+                 ]
+                 LockfreeQueue_Test.cpp(12) : 컴파일 중인 클래스 템플릿 인스턴스화 'CLockfreeQueue<st_TEST_DATA *>'에 대한 참조를 확인하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\x64\Release\LockfreeQueue.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\x64\Release\LockfreeQueue.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\x64\Release\LockfreeQueue.lib" /MACHINE:X64 x64\Release\APIHook.obj
+         x64\Release\Library.obj
+         x64\Release\Profiler.obj
+         x64\Release\SystemLog.obj
+         x64\Release\LockfreeQueue_Test.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         LockfreeQueue.vcxproj -> C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\x64\Release\LockfreeQueue.exe
+     1>"C:\Users\USER\Documents\Visual Studio 2013\Projects\LockfreeQueue\LockfreeQueue\LockfreeQueue.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.72
